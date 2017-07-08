@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bugg.Ir.NLog</id>
+    <version>1.0.0</version>
+    <title>Bugg</title>
+    <authors>Hamed</authors>
+    <owners>Hamed</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Hameds/Bugg.Ir.Nlog/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Hameds/Bugg.Ir.Nlog</projectUrl>
+    <iconUrl>https://www.bugg.ir/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>based on NLog, Bugg send your ASP.NET project logs to https://www.bugg.ir for better log search and analytics</description>
+    <releaseNotes></releaseNotes>
+    <tags>NLog CloudLog</tags>   
+    <dependencies>
+      <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+      <dependency id="NLog" version="4.4.11" />
+      <dependency id="NLog.Web" version="4.5.0" />
+      <dependency id="WebActivatorEx" version="2.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Bugg.Ir.NLog.dll" target="lib\net\Bugg.Ir.NLog.dll" />
+    <file src="Content\web.config.install.xdt" target="content" />
+    <file src="Content\web.config.uninstall.xdt" target="content" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>
