@@ -1,6 +1,8 @@
 # Bugg.Ir.Nlog
-Bugg is a nuget package based on [NLog](https://github.com/NLog/NLog) for logging in ASP.NET projects
+Bugg is a nuget package based on [NLog](https://github.com/NLog/NLog) for logging in ASP.NET projects and sends your ASP.NET project logs to [bugg.ir](https://www.bugg.ir) for better log search & analytics
 
+## Getting started
+Bugg is a nuget package, to install Bugg using, run `Install-Package Bugg.Ir.NLog` command in the [Package Manager Console](https://docs.nuget.org/docs/start-here/using-the-package-manager-console)
 
 ## Configuration options
 after you install Bugg nuget package in your ASP.NET project, you will have two new appsetting keys in your web.config
@@ -8,7 +10,7 @@ after you install Bugg nuget package in your ASP.NET project, you will have two 
 - BuggLevel (Required) : your log level, must be one of these values: Fatal, Error, Warn, Info, Debug, Trace
 
 ### Get your APIKey
-bugg.ir dashboard is currently on private beta. public beta request will be available soon
+[bugg.ir](https://bugg.ir) dashboard is currently on private beta. public beta request will be available soon
 
 ## How to start logging
 Bugg is based on [NLog](https://github.com/NLog/NLog) so you can use NLog tutorial on [logging](https://github.com/NLog/NLog/wiki/Tutorial) 
