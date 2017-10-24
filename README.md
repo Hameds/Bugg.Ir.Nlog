@@ -1,4 +1,6 @@
 # Bugg.Ir.Nlog
+[![NuGet](https://img.shields.io/nuget/v/Bugg.Ir.NLog.svg)]()
+
 Bugg is a nuget package based on [NLog](https://github.com/NLog/NLog) for logging in ASP.NET projects and sends your ASP.NET project logs to [bugg.ir](https://www.bugg.ir) for better log search & analytics
 
 ## Getting started
